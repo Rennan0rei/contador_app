@@ -1,0 +1,42 @@
+<html>
+<head>
+  <style>
+    body {
+      max-width: 400px; /* ajuste este valor para o tamanho desejado */
+      margin: 0 auto; /* centraliza o conteúdo */
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    p {
+      font-size: 24px;
+      text-align: center;
+    }
+</style>
+</head>
+<body>
+  <button id="botao">Clique aqui</button>
+  <p id="contador">0</p>
+
+  <script>
+
+    // obtém os elementos do botão e do contador
+    var botao = document.getElementById("botao");
+    var contador = document.getElementById("contador");
+
+    // inicializa uma variável para armazenar o número de cliques
+    var cliques = 0;
+
+    // adiciona um evento de clique ao botão
+    botao.addEventListener("click", function() {
+      // incrementa o número de cliques
+      cliques++;
+      // atualiza o texto do contador
+      contador.textContent = cliques;
+    });
+  </script>
+</body>
+</html>
