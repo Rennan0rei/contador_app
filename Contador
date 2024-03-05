@@ -2,7 +2,7 @@
 <head>
   <style>
     body {
-    max-width: 400px; /* ajuste este valor para o tamanho desejado */
+    max-width: 240px; /* ajuste este valor para o tamanho desejado */
     margin: 0 auto; /* centraliza o conteúdo na horizontal */
     height: 100vh; /* ocupa toda a altura da tela */
     display: flex; /* usa o modelo de layout flexível */
@@ -12,8 +12,8 @@
 }
 
     button {
-      font-size: 20px;
-      padding: 10px;
+      font-size: 40px;
+      padding: 25px;
     }
 
     p {
